@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "souravdatta 11/16/2018 14:32",
+	"super" : "BaselineOf",
+	"category" : "TurtleStudio",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfTurtleStudio",
+	"type" : "normal"
+}
