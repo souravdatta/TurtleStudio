@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "souravdatta 11/16/2018 10:43",
+	"super" : "Morph",
+	"category" : "TurtleStudio",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"surface"
+	],
+	"name" : "TurtleViewMorph",
+	"type" : "normal"
+}

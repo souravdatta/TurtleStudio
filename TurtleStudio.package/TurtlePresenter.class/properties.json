@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "souravdatta 11/16/2018 10:56",
+	"super" : "ComposablePresenter",
+	"category" : "TurtleStudio",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"viewport",
+		"textPane",
+		"doit",
+		"reset"
+	],
+	"name" : "TurtlePresenter",
+	"type" : "normal"
+}
