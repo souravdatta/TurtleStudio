@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "souravdatta 11/16/2018 14:32",
 	"super" : "BaselineOf",
-	"category" : "TurtleStudio",
+	"category" : "BaselineOfTurtleStudio",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
