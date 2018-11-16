@@ -12,5 +12,4 @@ evalCode
 		logged: false;
 		evaluate.
 	
-	viewport drawTurtleAt: turtle origin withMoves: turtle moves.
-	viewport widget changed
+	viewport drawTurtleAt: turtle origin withMoves: turtle moves

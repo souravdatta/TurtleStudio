@@ -1,3 +1,3 @@
 turtle moves
 turn: anAngle
-	curAngle := curAngle - anAngle
+	curAngle := curAngle + anAngle
