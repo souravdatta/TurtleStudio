@@ -14,6 +14,7 @@ backend and Spec for UI. To load and play with it:
 
 * Implement `pendown` and `penup`.
 * Add primitives for arcs.
+* A better Turtle :-)
 
 Please report issues/enhancement ideas if you try it, or better, send some pull requests with cool changes!
 
