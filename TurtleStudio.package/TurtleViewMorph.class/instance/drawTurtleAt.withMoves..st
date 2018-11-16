@@ -24,6 +24,11 @@ drawTurtleAt: aPoint withMoves: movesList
 	
 		canvas setStrokePaint: Color black.
 		canvas setShape: path.
+		canvas draw.
+		
+		canvas setPaint: Color red.
+		canvas setShape: ((x1@y1) corner: (x2@y2)).
+		
 		canvas draw
 	].
 
