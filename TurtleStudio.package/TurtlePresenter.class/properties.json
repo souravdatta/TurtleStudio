@@ -9,7 +9,9 @@
 		"viewport",
 		"textPane",
 		"doit",
-		"reset"
+		"reset",
+		"turtle",
+		"t"
 	],
 	"name" : "TurtlePresenter",
 	"type" : "normal"

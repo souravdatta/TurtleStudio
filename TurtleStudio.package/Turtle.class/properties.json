@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "souravdatta 11/16/2018 14:53",
+	"super" : "Object",
+	"category" : "TurtleStudio",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"curx",
+		"cury",
+		"curAngle",
+		"penState",
+		"moves",
+		"pens"
+	],
+	"name" : "Turtle",
+	"type" : "normal"
+}
