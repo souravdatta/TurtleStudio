@@ -10,5 +10,10 @@ backend and Spec for UI. To load and play with it:
 	  baseline: 'TurtleStudio';
 	  load.
 
+### TODOs
+
+* Implement `pendown` and `penup`.
+* Add primitives for arcs.
+
 Please report issues/enhancement ideas if you try it, or better, send some pull requests with cool changes!
 
