@@ -16,13 +16,14 @@ drawTurtleAt: aPoint withMoves: movesList
 		surface clear: Color white.
 		canvas pathTransform translateX: 200 Y: 200.
 		path := canvas createPath: [ :builder | 
+			builder absolute.
 			movesList do: [ :plist | 
 				builder lineTo: (plist at: 2)	
 			]	
 		].
 	
 		canvas setStrokePaint: Color black.
-		canvas setPath: path.
+		canvas setShape: path.
 		canvas draw
 	].
 
