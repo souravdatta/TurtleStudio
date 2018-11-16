@@ -1,0 +1,3 @@
+widgets
+viewMorph 
+	^ viewport asSpecAdapter 
