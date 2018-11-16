@@ -8,5 +8,5 @@ initializeWidgets
 	
 	doit label: 'Do it'.
 	reset label: 'Reset'.
-	viewport reset.
+	viewport reset
 	
