@@ -2,13 +2,10 @@ accessing
 drawTurtleAt: aPoint withMoves: movesList
 	|x1 x2 y1 y2|
 	
-	movesList do: [ :p | Transcript show: (p at: 1); cr; show: (p at: 2); cr ].
-	Transcript show: aPoint; cr.
-	
-	x1 := aPoint x - 10.
-	y1 := aPoint y - 10.
-	x2 := aPoint x + 10.
-	y2 := aPoint y + 10.
+	x1 := aPoint x - 4.
+	y1 := aPoint y - 4.
+	x2 := aPoint x + 4.
+	y2 := aPoint y + 4.
 	
 	surface drawDuring: [ :canvas | 
 		| path |
