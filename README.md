@@ -10,9 +10,14 @@ backend and Spec for UI. To load and play with it:
 	  baseline: 'TurtleStudio';
 	  load.
 
+Launch it like:
+
+    TurtleStudio open
+
+
 ### TODOs
 
-* Implement `pendown` and `penup`.
+* ~~Implement `pendown` and `penup`.~~
 * Add primitives for arcs.
 * A better Turtle :-)
 
