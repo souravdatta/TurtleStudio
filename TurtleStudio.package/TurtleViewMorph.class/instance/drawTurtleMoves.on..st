@@ -1,4 +1,4 @@
-accessing
+drawing
 drawTurtleMoves: movesList on: canvas
 	| path |
 	path := canvas

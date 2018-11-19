@@ -1,4 +1,4 @@
-accessing
+drawing
 drawTurtle: aTurtle
 	surface
 		drawDuring: [ :canvas | 

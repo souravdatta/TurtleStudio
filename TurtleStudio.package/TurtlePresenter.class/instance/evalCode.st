@@ -12,4 +12,4 @@ evalCode
 			^ nil ];
 		logged: false;
 		evaluate.
-	viewport drawTurtleAt: turtle origin withMoves: turtle moves
+	viewport drawTurtle: turtle

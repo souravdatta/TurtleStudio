@@ -4,4 +4,4 @@ initializeWidgets
 	doit label: 'Do it'.
 	reset label: 'Reset'.
 	viewport reset.
-	viewport drawTurtleAt: turtle origin withMoves: turtle moves
+	viewport drawTurtle: turtle
