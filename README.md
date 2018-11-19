@@ -2,6 +2,8 @@
 
 ## A Pharo turtle logo play ground (work in progress).
 
+![](https://github.com/souravdatta/TurtleStudio/blob/master/ExampleTS.png)
+
 This project aims to make a simple utility to experiment with Turtle graphics without leaving the Pharo environment. It uses Athens Cairo graphics
 backend and Spec for UI. To load and play with it:
 
