@@ -4,4 +4,4 @@ initialize
 	turtle := Turtle new.
 	t := turtle.
 	super initialize.
-	self extent: 600 @ 400
+	self extent: 680 @ 400

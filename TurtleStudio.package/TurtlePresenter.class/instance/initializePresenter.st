@@ -3,4 +3,5 @@ initializePresenter
 	doit whenActionPerformedDo: [ self evalCode ].
 	reset
 		whenActionPerformedDo: [ viewport reset.
-			turtle reset ]
+			turtle reset.
+			viewport drawTurtle: turtle ]
