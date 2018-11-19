@@ -1,7 +1,4 @@
 initialization
 reset
-	surface drawDuring: [ :canvas |
-		surface clear: Color white	
-	].
-	
+	surface drawDuring: [ :canvas | surface clear: Color white ].
 	self changed

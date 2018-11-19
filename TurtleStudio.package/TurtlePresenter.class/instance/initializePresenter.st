@@ -1,4 +1,6 @@
 initialization
-initializePresenter 
+initializePresenter
 	doit whenActionPerformedDo: [ self evalCode ].
-	reset whenActionPerformedDo: [ viewport reset. turtle reset ]
+	reset
+		whenActionPerformedDo: [ viewport reset.
+			turtle reset ]

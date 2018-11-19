@@ -1,12 +1,7 @@
 initialization
 initializeWidgets
-	self instantiatePresenters: #(
-		textPane TextPresenter
-		doit ButtonModel
-		reset ButtonModel
-	).
-	
+	self instantiatePresenters: #(textPane TextPresenter doit ButtonModel reset ButtonModel).
 	doit label: 'Do it'.
 	reset label: 'Reset'.
-	viewport reset
-	
+	viewport reset.
+	viewport drawTurtleAt: turtle origin withMoves: turtle moves

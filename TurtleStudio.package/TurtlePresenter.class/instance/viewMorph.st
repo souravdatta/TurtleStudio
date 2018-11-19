@@ -1,3 +1,3 @@
 widgets
-viewMorph 
-	^ viewport asSpecAdapter 
+viewMorph
+	^ viewport asSpecAdapter
