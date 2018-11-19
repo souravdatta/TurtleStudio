@@ -1,10 +1,5 @@
 accessing
 drawTurtleAt: aPoint withMoves: movesList
-	| x1 x2 y1 y2 |
-	x1 := aPoint x - 4.
-	y1 := aPoint y - 4.
-	x2 := aPoint x + 4.
-	y2 := aPoint y + 4.
 	surface
 		drawDuring: [ :canvas | 
 			| path |
@@ -20,8 +15,5 @@ drawTurtleAt: aPoint withMoves: movesList
 								ifFalse: [ builder lineTo: (plist at: 2) ] ] ].
 			canvas setStrokePaint: Color black.
 			canvas setShape: path.
-			canvas draw.
-			canvas setPaint: Color red.
-			canvas setShape: (x1 @ y1 corner: x2 @ y2).
-			canvas draw ].
+			canvas draw].
 	self changed
