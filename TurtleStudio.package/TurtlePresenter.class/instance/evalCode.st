@@ -7,9 +7,11 @@ evalCode
 		context: nil;
 		receiver: self;
 		requestor: nil;
-		failBlock: [ self halt.
-			self flash.
-			^ nil ];
+		failBlock: [ 
+			self resetAll.
+			"self flash."
+			^ nil 
+		];
 		logged: false;
 		evaluate.
 	viewport drawTurtle: turtle
